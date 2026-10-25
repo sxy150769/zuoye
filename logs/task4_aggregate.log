@@ -1,0 +1,113 @@
+test> 
+test> 
+test> 
+test> 
+test> 
+test> switched to db library
+library> 
+library> ========== 聚合管道统计 A1—A9 ==========
+
+library> 
+library> 
+library> A1 按类别统计图书数量与平均评分
+
+library> ... ... ... 
+library>   分组数：5
+
+library>     计算机：数量 7，平均评分 4.61
+    文学：数量 5，平均评分 4.70
+    数学：数量 3，平均评分 4.53
+    经济管理：数量 3，平均评分 4.37
+    外语：数量 2，平均评分 4.00
+
+library> 
+library> 
+library> A2 出版社图书数量 TOP5（$topN）
+
+library> ... ... ... ... ... 
+library>   返回 5 家
+
+library>     机械工业出版社：4 本
+    人民邮电出版社：3 本
+    高等教育出版社：2 本
+    人民文学出版社：2 本
+    中国人民大学出版社：2 本
+
+library> 
+library> 
+library> A3 文档数最多的图书类别（$sortByCount）
+
+library> 
+library>   结果 5 组，最多的是：计算机（7 本）
+
+library> 
+library> 
+library> A4 评分最高的 3 本图书（书名 + 借阅次数）
+
+library> ... ... ... ... 
+library>     三体（全集） | 评分 4.9 | 借阅次数 17
+    深度学习入门：基于Python的理论与实现 | 评分 4.9 | 借阅次数 18
+    算法（第4版） | 评分 4.9 | 借阅次数 16
+
+library> 
+library> 
+library> A5 每本书销售额（单价 × 借阅次数，保留两位小数）
+
+library> ... ... ... ... 
+library>     三体（全集）：¥1958.4（115.2 × 17）
+    算法（第4版）：¥1584（99 × 16）
+    人工智能：一种现代的方法（第3版）：¥1536（128 × 12）
+    操作系统概念（原书第9版）：¥1071（119 × 9）
+    深度学习入门：基于Python的理论与实现：¥1062（59 × 18）
+
+library>     ...共 20 本，以上为销售额前 5 名
+
+library> 
+library> 
+library> A6 按年份统计借阅量（$year + $dateToString）
+
+library> ... ... ... 
+library>     2025年：借阅 38 次
+    2026年：借阅 28 次
+
+library> 
+library> 
+library> A7 读者借阅次数 TOP5
+
+library> ... ... ... ... 
+library>     R20250001：借阅 6 次
+    R20250015：借阅 5 次
+    R20250006：借阅 5 次
+    R20250002：借阅 5 次
+    R20250003：借阅 5 次
+
+library> 
+library> 
+library> A8 学院借阅量排行榜（$lookup）
+
+library> ... ... ... ... ... 
+library>     计算机学院：16 次
+    经济管理学院：12 次
+    电子信息学院：12 次
+    数学科学学院：10 次
+    外国语学院：8 次
+    文学院：8 次
+
+library> 
+library> 
+library> A9 将 A1 分类统计结果写入 category_stats（$merge）
+
+library> ... ... ... 
+library>   category_stats 集合当前文档数：5
+
+library> ... ...     {"_id":"外语","book_count":2,"avg_rating":4}
+    {"_id":"数学","book_count":3,"avg_rating":4.533333333333333}
+    {"_id":"文学","book_count":5,"avg_rating":4.7}
+    {"_id":"经济管理","book_count":3,"avg_rating":4.366666666666667}
+    {"_id":"计算机","book_count":7,"avg_rating":4.614285714285714}
+
+library> 
+library> 
+任务四聚合统计执行完毕。
+
+library> 

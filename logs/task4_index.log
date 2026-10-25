@@ -1,0 +1,84 @@
+test> 
+test> 
+test> 
+test> 
+test> 
+test> switched to db library
+library> 
+library> ========== 索引建立 I1—I5 ==========
+
+library> 
+library> 
+library> I1 为 books.isbn 建立唯一索引
+
+library> idx_isbn_unique
+library> 
+library> 
+library>   验证重复 ISBN 插入被拒绝：
+
+library> ... ... ... ... ...   重复插入失败（符合预期）：错误码 11000，错误信息  duplicate key error collection: library.books index: idx_isbn_unique dup key: { isbn: "9787115458932" }
+
+library> 
+library> 
+library> I2 为 books.title 建立单键索引
+
+library> idx_title
+library> 
+library> 
+library> I3 为 books.category 建立单键索引
+
+library> idx_category
+library> 
+library> 
+library> I4 为 books.tags 建立多键索引
+
+library> idx_tags_multikey
+library> 
+library> 
+library> I5 为 category 与 price 建立复合索引
+
+library> idx_category_price
+library> 
+library> 
+library> 
+===== 索引清单（getIndexes） =====
+
+library> ... ...   - _id_ | {"_id":1}
+  - idx_isbn_unique | {"isbn":1} | unique
+  - idx_title | {"title":1}
+  - idx_category | {"category":1}
+  - idx_tags_multikey | {"tags":1}
+  - idx_category_price | {"category":1,"price":1}
+
+library> 
+library> 
+library> 
+===== explain 对比（isbn 精确查询） =====
+
+library> -- 有唯一索引时 --
+
+library> 
+library> Uncaught TypeError: Cannot read properties of undefined (reading 'stage')
+library>   扫描文档数：1，返回：1 条
+
+library> 
+library> -- 删除索引后（全表扫描） --
+
+library> { nIndexesWas: 6, ok: 1 }
+library> 
+library>   查询计划：COLLSCAN
+
+library>   扫描文档数：20，返回：1 条
+
+library> 
+library> 
+library> -- 恢复 isbn 唯一索引 --
+
+library> idx_isbn_unique
+library>   已恢复。当前 books 索引数：6
+
+library> 
+library> 
+任务四索引部分执行完毕。
+
+library> 

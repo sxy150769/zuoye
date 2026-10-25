@@ -1,0 +1,437 @@
+[
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501544"
+    },
+    "isbn": "9787040601821",
+    "title": "数据库系统概论（第6版）",
+    "author": "王珊、萨师煊",
+    "publisher": "高等教育出版社",
+    "category": "计算机",
+    "price": 69.8,
+    "stock": 12,
+    "rating": 4.7,
+    "tags": [
+      "数据库",
+      "教程",
+      "编程"
+    ],
+    "publish_date": {
+      "$date": "2023-02-28T16:00:00Z"
+    },
+    "borrow_count": 14
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501545"
+    },
+    "isbn": "9787115524593",
+    "title": "算法（第4版）",
+    "author": "Robert Sedgewick",
+    "publisher": "人民邮电出版社",
+    "category": "计算机",
+    "price": 99.0,
+    "stock": 8,
+    "rating": 4.9,
+    "tags": [
+      "算法",
+      "数据结构",
+      "编程"
+    ],
+    "publish_date": {
+      "$date": "2022-12-09T16:00:00Z"
+    },
+    "borrow_count": 16
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501546"
+    },
+    "isbn": "9787111693062",
+    "title": "计算机网络：自顶向下方法（原书第8版）",
+    "author": "James F. Kurose",
+    "publisher": "机械工业出版社",
+    "category": "计算机",
+    "price": 89.0,
+    "stock": 10,
+    "rating": 4.6,
+    "tags": [
+      "网络",
+      "教材",
+      "编程"
+    ],
+    "publish_date": {
+      "$date": "2022-05-19T16:00:00Z"
+    },
+    "borrow_count": 11
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501547"
+    },
+    "isbn": "9787111722618",
+    "title": "操作系统概念（原书第9版）",
+    "author": "Abraham Silberschatz",
+    "publisher": "机械工业出版社",
+    "category": "计算机",
+    "price": 119.0,
+    "stock": 5,
+    "rating": 3.8,
+    "tags": [
+      "操作系统",
+      "教材",
+      "编程"
+    ],
+    "publish_date": {
+      "$date": "2018-08-14T16:00:00Z"
+    },
+    "borrow_count": 9
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501548"
+    },
+    "isbn": "9787302616470",
+    "title": "人工智能：一种现代的方法（第3版）",
+    "author": "Stuart Russell",
+    "publisher": "清华大学出版社",
+    "category": "计算机",
+    "price": 128.0,
+    "stock": 15,
+    "rating": 4.8,
+    "tags": [
+      "人工智能",
+      "教材",
+      "算法"
+    ],
+    "publish_date": {
+      "$date": "2020-08-31T16:00:00Z"
+    },
+    "borrow_count": 12
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501549"
+    },
+    "isbn": "9787115458932",
+    "title": "深度学习入门：基于Python的理论与实现",
+    "author": "斋藤康毅",
+    "publisher": "人民邮电出版社",
+    "category": "计算机",
+    "price": 59.0,
+    "stock": 20,
+    "rating": 4.9,
+    "tags": [
+      "深度学习",
+      "Python",
+      "入门",
+      "编程"
+    ],
+    "publish_date": {
+      "$date": "2023-09-30T16:00:00Z"
+    },
+    "borrow_count": 18
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f50154a"
+    },
+    "isbn": "9787111604700",
+    "title": "Python数据分析与挖掘实战（第2版）",
+    "author": "张良均",
+    "publisher": "机械工业出版社",
+    "category": "计算机",
+    "price": 69.0,
+    "stock": 18,
+    "rating": 4.6,
+    "tags": [
+      "Python",
+      "数据分析",
+      "入门",
+      "编程"
+    ],
+    "publish_date": {
+      "$date": "2019-06-30T16:00:00Z"
+    },
+    "borrow_count": 13
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f50154b"
+    },
+    "isbn": "9787020038356",
+    "title": "围城",
+    "author": "钱锺书",
+    "publisher": "人民文学出版社",
+    "category": "文学",
+    "price": 36.0,
+    "stock": 25,
+    "rating": 4.8,
+    "tags": [
+      "小说",
+      "经典"
+    ],
+    "publish_date": {
+      "$date": "1990-12-31T16:00:00Z"
+    },
+    "borrow_count": 15
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f50154c"
+    },
+    "isbn": "9787544253994",
+    "title": "百年孤独",
+    "author": "加西亚·马尔克斯",
+    "publisher": "南海出版公司",
+    "category": "文学",
+    "price": 55.0,
+    "stock": 9,
+    "rating": 4.7,
+    "tags": [
+      "小说",
+      "魔幻现实主义"
+    ],
+    "publish_date": {
+      "$date": "2011-05-31T16:00:00Z"
+    },
+    "borrow_count": 10
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f50154d"
+    },
+    "isbn": "9787536692930",
+    "title": "三体（全集）",
+    "author": "刘慈欣",
+    "publisher": "重庆出版社",
+    "category": "文学",
+    "price": 128.0,
+    "stock": 11,
+    "rating": 4.9,
+    "tags": [
+      "科幻",
+      "小说",
+      "经典"
+    ],
+    "publish_date": {
+      "$date": "2010-10-31T16:00:00Z"
+    },
+    "borrow_count": 17
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f50154e"
+    },
+    "isbn": "9787020120853",
+    "title": "白鹿原",
+    "author": "陈忠实",
+    "publisher": "人民文学出版社",
+    "category": "文学",
+    "price": 42.0,
+    "stock": 6,
+    "rating": 4.6,
+    "tags": [
+      "小说",
+      "文学"
+    ],
+    "publish_date": {
+      "$date": "2017-07-31T16:00:00Z"
+    },
+    "borrow_count": 8
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f50154f"
+    },
+    "isbn": "9787506365437",
+    "title": "活着（精装纪念版）",
+    "author": "余华",
+    "publisher": "作家出版社",
+    "category": "文学",
+    "price": 45.0,
+    "stock": 13,
+    "rating": 4.5,
+    "tags": [
+      "小说",
+      "当代文学",
+      "经典"
+    ],
+    "publish_date": {
+      "$date": "2012-07-31T16:00:00Z"
+    },
+    "borrow_count": 12
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501550"
+    },
+    "isbn": "9787040440933",
+    "title": "概率论与数理统计（第5版）",
+    "author": "盛骤",
+    "publisher": "高等教育出版社",
+    "category": "数学",
+    "price": 48.0,
+    "stock": 0,
+    "rating": 4.3,
+    "tags": [
+      "概率统计",
+      "数学",
+      "教材"
+    ],
+    "publish_date": {
+      "$date": "2019-06-30T16:00:00Z"
+    },
+    "borrow_count": 6
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501551"
+    },
+    "isbn": "9787111644293",
+    "title": "线性代数及其应用（原书第6版）",
+    "author": "David C. Lay",
+    "publisher": "机械工业出版社",
+    "category": "数学",
+    "price": 79.0,
+    "stock": 8,
+    "rating": 4.6,
+    "tags": [
+      "线性代数",
+      "数学",
+      "教材"
+    ],
+    "publish_date": {
+      "$date": "2020-10-31T16:00:00Z"
+    },
+    "borrow_count": 7
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501552"
+    },
+    "isbn": "9787115471663",
+    "title": "具体数学：计算机科学基础（第2版）",
+    "author": "Ronald L. Graham",
+    "publisher": "人民邮电出版社",
+    "category": "数学",
+    "price": 99.0,
+    "stock": 4,
+    "rating": 4.7,
+    "tags": [
+      "数学",
+      "算法"
+    ],
+    "publish_date": {
+      "$date": "2013-03-31T16:00:00Z"
+    },
+    "borrow_count": 5
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501553"
+    },
+    "isbn": "9787100172815",
+    "title": "经济学（第19版）",
+    "author": "保罗·萨缪尔森",
+    "publisher": "商务印书馆",
+    "category": "经济管理",
+    "price": 88.0,
+    "stock": 7,
+    "rating": 4.5,
+    "tags": [
+      "经济学",
+      "教材",
+      "经典"
+    ],
+    "publish_date": {
+      "$date": "2012-12-31T16:00:00Z"
+    },
+    "borrow_count": 9
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501554"
+    },
+    "isbn": "9787300207348",
+    "title": "管理学（第15版）",
+    "author": "斯蒂芬·罗宾斯",
+    "publisher": "中国人民大学出版社",
+    "category": "经济管理",
+    "price": 98.0,
+    "stock": 16,
+    "rating": 4.4,
+    "tags": [
+      "管理学",
+      "教材"
+    ],
+    "publish_date": {
+      "$date": "2015-12-31T16:00:00Z"
+    },
+    "borrow_count": 8
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501555"
+    },
+    "isbn": "9787300271046",
+    "title": "市场营销：原理与实践（第17版）",
+    "author": "菲利普·科特勒",
+    "publisher": "中国人民大学出版社",
+    "category": "经济管理",
+    "price": 109.0,
+    "stock": 3,
+    "rating": 4.2,
+    "tags": [
+      "营销",
+      "教材"
+    ],
+    "publish_date": {
+      "$date": "2020-05-31T16:00:00Z"
+    },
+    "borrow_count": 6
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501556"
+    },
+    "isbn": "9787560089693",
+    "title": "新概念英语（新版第2册）",
+    "author": "亚历山大",
+    "publisher": "外语教学与研究出版社",
+    "category": "外语",
+    "price": 48.0,
+    "stock": 22,
+    "rating": 4.6,
+    "tags": [
+      "英语",
+      "教材"
+    ],
+    "publish_date": {
+      "$date": "2016-03-31T16:00:00Z"
+    },
+    "borrow_count": 13
+  },
+  {
+    "_id": {
+      "$oid": "6ade0321ed8fae279f501557"
+    },
+    "isbn": "9787553605406",
+    "title": "剑桥雅思真题精讲5",
+    "author": "周成刚",
+    "publisher": "浙江教育出版社",
+    "category": "外语",
+    "price": 66.0,
+    "stock": 10,
+    "rating": 3.4,
+    "tags": [
+      "雅思",
+      "英语",
+      "考试"
+    ],
+    "publish_date": {
+      "$date": "2017-02-28T16:00:00Z"
+    },
+    "borrow_count": 7
+  }
+]

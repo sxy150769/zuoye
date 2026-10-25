@@ -1,0 +1,14 @@
+==> books 重新导入 20 条
+==> 视图 book_in_stock 重建，当前 19 条
+==> books 索引重建完成：6 个
+==> borrow_logs 恢复 66 条
+
+===== 清理后终态核对 =====
+  books            -> 20 条
+  readers          -> 16 条
+  borrow_logs      -> 66 条
+  category_stats   -> 5 条
+  视图 book_in_stock    -> 19 条
+  books 索引            -> _id_, idx_category, idx_category_price, idx_isbn_unique, idx_tags_multikey, idx_title
+
+清理恢复完成。

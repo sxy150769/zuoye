@@ -1,0 +1,21 @@
+==> 图书数据开始录入
+    数据文件共 20 条
+    insert_one 录入第 1 条，返回 _id = 6ade0204d1d030156cee881e
+    insert_many 批量录入 19 条
+    books 集合当前文档数 = 20
+==> 读者数据开始录入
+    insert_many 批量录入 16 条
+    readers 集合当前文档数 = 16
+==> 借阅流水开始录入（时间序列集合）
+    insert_many 批量录入 66 条
+    borrow_logs 集合当前文档数 = 66
+
+===== 各集合文档数量核对 =====
+  books            -> 20 条
+  readers          -> 16 条
+  borrow_logs      -> 66 条
+  book_logs        -> 0 条
+  category_stats   -> 0 条
+  视图 book_in_stock    -> 19 条
+
+数据填充完成，连接已关闭。

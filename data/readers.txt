@@ -1,0 +1,239 @@
+[
+  {
+    "card_no": "R20250001",
+    "name": "陈立",
+    "college": "计算机学院",
+    "email": "chenli@stu.edu.cn",
+    "phone": "138 2210 1101",
+    "level": "高级",
+    "register_date": {
+      "$date": "2023-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "计算机",
+      "数学"
+    ]
+  },
+  {
+    "card_no": "R20250002",
+    "name": "张雨桐",
+    "college": "经济管理学院",
+    "email": "zhangyt@stu.edu.cn",
+    "phone": "139 3344 2211",
+    "level": "普通",
+    "register_date": {
+      "$date": "2024-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "经济管理"
+    ]
+  },
+  {
+    "card_no": "R20250003",
+    "name": "王浩然",
+    "college": "电子信息学院",
+    "email": null,
+    "phone": "137 5566 3322",
+    "level": "高级",
+    "register_date": {
+      "$date": "2022-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "计算机",
+      "数学",
+      "外语"
+    ]
+  },
+  {
+    "card_no": "R20250004",
+    "name": "李思远",
+    "college": "数学科学学院",
+    "email": "lisy@stu.edu.cn",
+    "phone": "136 7788 4433",
+    "level": "普通",
+    "register_date": {
+      "$date": "2025-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "数学",
+      "计算机"
+    ]
+  },
+  {
+    "card_no": "R20250005",
+    "name": "赵嘉怡",
+    "college": "外国语学院",
+    "email": "zhaojy@stu.edu.cn",
+    "phone": "135 9900 5544",
+    "level": "教师",
+    "register_date": {
+      "$date": "2021-03-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "外语",
+      "文学"
+    ]
+  },
+  {
+    "card_no": "R20250006",
+    "name": "孙博文",
+    "college": "计算机学院",
+    "email": "sunbw@stu.edu.cn",
+    "phone": "158 1122 6655",
+    "level": "普通",
+    "register_date": {
+      "$date": "2024-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "计算机"
+    ]
+  },
+  {
+    "card_no": "R20250007",
+    "name": "刘梦琪",
+    "college": "文学院",
+    "email": "liumq@stu.edu.cn",
+    "phone": "159 2233 7766",
+    "level": "高级",
+    "register_date": {
+      "$date": "2023-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "文学",
+      "外语"
+    ]
+  },
+  {
+    "card_no": "R20250008",
+    "name": "黄志强",
+    "college": "电子信息学院",
+    "email": null,
+    "phone": "151 3344 8877",
+    "level": "普通",
+    "register_date": {
+      "$date": "2025-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "计算机",
+      "数学"
+    ]
+  },
+  {
+    "card_no": "R20250009",
+    "name": "吴雅静",
+    "college": "外国语学院",
+    "email": "wuyj@stu.edu.cn",
+    "phone": "152 4455 9988",
+    "level": "普通",
+    "register_date": {
+      "$date": "2024-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "外语"
+    ]
+  },
+  {
+    "card_no": "R20250010",
+    "name": "徐天宇",
+    "college": "文学院",
+    "email": "xuty@stu.edu.cn",
+    "phone": "153 5566 0099",
+    "level": "普通",
+    "register_date": {
+      "$date": "2022-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "文学",
+      "经济管理"
+    ]
+  },
+  {
+    "card_no": "R20250011",
+    "name": "郑晓峰",
+    "college": "经济管理学院",
+    "email": "zhengxf@stu.edu.cn",
+    "phone": "155 6677 1100",
+    "level": "教师",
+    "register_date": {
+      "$date": "2019-03-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "经济管理",
+      "计算机"
+    ]
+  },
+  {
+    "card_no": "R20250012",
+    "name": "马婉婷",
+    "college": "数学科学学院",
+    "email": "mawt@stu.edu.cn",
+    "phone": "156 7788 2211",
+    "level": "普通",
+    "register_date": {
+      "$date": "2023-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "数学"
+    ]
+  },
+  {
+    "card_no": "R20250013",
+    "name": "何俊杰",
+    "college": "数学科学学院",
+    "email": "hejj@stu.edu.cn",
+    "phone": "157 8899 3322",
+    "level": "普通",
+    "register_date": {
+      "$date": "2025-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "数学",
+      "计算机"
+    ]
+  },
+  {
+    "card_no": "R20250014",
+    "name": "林晓彤",
+    "college": "电子信息学院",
+    "email": null,
+    "phone": "186 9900 4433",
+    "level": "高级",
+    "register_date": {
+      "$date": "2021-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "计算机",
+      "外语"
+    ]
+  },
+  {
+    "card_no": "R20250015",
+    "name": "宋子墨",
+    "college": "计算机学院",
+    "email": "songzm@stu.edu.cn",
+    "phone": "187 1122 5544",
+    "level": "教师",
+    "register_date": {
+      "$date": "2018-03-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "计算机",
+      "文学"
+    ]
+  },
+  {
+    "card_no": "R20250016",
+    "name": "邓凯文",
+    "college": "经济管理学院",
+    "email": "dengkw@stu.edu.cn",
+    "phone": "188 2233 6655",
+    "level": "普通",
+    "register_date": {
+      "$date": "2024-09-01T00:00:00+08:00"
+    },
+    "fav_categories": [
+      "经济管理",
+      "外语"
+    ]
+  }
+]

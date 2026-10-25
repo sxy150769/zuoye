@@ -1,0 +1,48 @@
+test> 
+test> 
+test> 
+test> 
+test> 
+test> switched to db library
+library> 
+library> ========== 任务六 独立验证（命令行核对） ==========
+
+library> 
+library> 
+library> 
+library> Q1 定价 80 元以上图书条数：9（预期 9） ✔
+
+library> 
+library> 
+library> 
+library> Q2 库存不足 10 本图书条数：9（预期 9） ✔
+
+library> 
+library> 
+library> 
+library> Q7 评分 4.0 以上且计算机类条数：6（预期 6） ✔
+
+library> 
+library> 
+library> 
+library> Q14 评分排行前 5 条数：5（预期 5） ✔
+
+library> 
+library> 
+library> 
+library> A1 分类统计分组数：5（预期 5） ✔
+
+library> 
+library> 
+library> 
+library> 
+library> 视图 book_in_stock 数据量：19，与直接过滤 stock>0 一致：是 ✔
+
+library> 
+library> 
+===== 验证结论 =====
+
+library> 
+library> 全部 6 项核对一致，独立验证通过。
+
+library> 

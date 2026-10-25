@@ -1,0 +1,36 @@
+{
+  "导出时间": "2026-10-25",
+  "数据库": "library",
+  "集合清单": [
+    {
+      "name": "book_logs",
+      "count": 0,
+      "type": "业务集合"
+    },
+    {
+      "name": "borrow_logs",
+      "count": 66,
+      "type": "业务集合"
+    },
+    {
+      "name": "readers",
+      "count": 16,
+      "type": "业务集合"
+    },
+    {
+      "name": "books",
+      "count": 20,
+      "type": "业务集合"
+    },
+    {
+      "name": "category_stats",
+      "count": 5,
+      "type": "业务集合"
+    },
+    {
+      "name": "book_in_stock",
+      "count": 19,
+      "type": "业务集合"
+    }
+  ]
+}

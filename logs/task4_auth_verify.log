@@ -1,0 +1,9 @@
+--- libReader 读操作（应成功） ---
+books 文档数: 20
+Q1 定价>80: 8 条
+--- libReader 写操作（应被拒） ---
+写入被拒绝: Unauthorized （未授权）
+--- libWriter 读+写（应成功） ---
+books 文档数: 20
+写入匹配: 1 修改: 1
+（已还原测试字段）

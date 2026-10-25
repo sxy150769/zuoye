@@ -1,0 +1,40 @@
+test> 
+test> 
+test> 
+test> 
+test> 
+test> 
+test> switched to db library
+library> 
+library> 
+library> ==> 已清理旧账号 libReader
+
+library> ==> 已清理旧账号 libWriter
+
+library> 
+library> 
+library> S1 创建只读账号 libReader（角色 read）
+
+library> { ok: 1 }
+library>   libReader 创建成功
+
+library> 
+library> 
+library> S2 创建读写账号 libWriter（角色 readWrite + dbAdmin）
+
+library> { ok: 1 }
+library>   libWriter 创建成功
+
+library> 
+library> 
+library> 
+===== library 库用户清单 =====
+
+library> ... ...   - libReader | 角色: read@library
+  - libWriter | 角色: readWrite@library, dbAdmin@library
+
+library> 
+library> 
+账号创建完成。下一步：重启服务启用 --auth 访问控制后进行 S3 权限验证。
+
+library> 

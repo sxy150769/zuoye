@@ -1,0 +1,17 @@
+生成终端风格截图（版本2）...
+  [OK] shot1_mongod_startup.png
+  [OK] shot2_collections.png
+  [OK] shot3_data_import.png
+  [OK] shot4_queries.png
+  [OK] shot5_updates.png
+  [OK] shot6_aggregate.png
+  [OK] shot7_index.png
+  [OK] shot8_auth.png
+  [OK] shot9_main_run.png
+  [OK] shot10_verify.png
+生成 Compass 风格截图（版本2）...
+  [OK] shot_c1_collections.png
+  [OK] shot_c2_books.png
+  [OK] shot_c3_stats.png
+  [OK] shot_c4_q1.png
+全部截图生成完成 -> /home/user/Doubao/chats/38449217127241730/实训项目-图书情报检索与统计平台-版本2/screenshots

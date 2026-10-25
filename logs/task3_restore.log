@@ -1,0 +1,5 @@
+==> 已删除现有 borrow_logs 集合
+==> 已按原配置重建 borrow_logs（timeField=borrow_date, granularity=hours, expireAfterSeconds=63072000）
+==> 已恢复 66 条借阅记录
+==> borrow_logs 当前文档数：66
+恢复完成。

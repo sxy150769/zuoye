@@ -1,0 +1,64 @@
+test> 
+test> 
+test> 
+test> 
+test> 
+test> 
+test> 
+test> switched to db library
+library> { ok: 1, dropped: 'library' }
+library> 
+library> 
+library> { ok: 1 }
+library> { ok: 1 }
+library> { ok: 1 }
+library> { ok: 1 }
+library> ==> 四个普通集合创建完成：books / readers / borrow_logs / category_stats
+
+library> 
+library> 
+library> { ok: 1 }
+library> ==> 固定集合 book_logs 创建完成（capped=true, size=1048576, max=1000）
+
+library> 
+library> 
+library> 
+library> 
+library> true
+library> ... ... ... ... ... ... { ok: 1 }
+library> ==> 时间序列集合 borrow_logs 创建完成（timeField=borrow_date, granularity=hours, expireAfterSeconds=63072000）
+
+library> 
+library> 
+library> { ok: 1 }
+library> ==> 视图 book_in_stock 创建完成（基于 books，过滤 stock>0）
+
+library> 
+library> 
+library> 
+===== 集合列表（含类型标记） =====
+
+library> ... ... ... ... ... ...   - borrow_logs | 类型: 时间序列集合
+  - system.buckets.borrow_logs | 类型: 时间序列集合
+  - books | 类型: 普通集合
+  - system.views | 类型: 普通集合
+  - book_logs | 类型: 固定集合
+  - readers | 类型: 普通集合
+  - category_stats | 类型: 普通集合
+  - book_in_stock | 类型: 视图
+
+library> 
+library> 
+library> 
+===== 集合选项配置查询 =====
+
+library> book_logs 选项: {"capped":true,"size":1048576,"max":1000}
+
+library> borrow_logs 选项: {"expireAfterSeconds":{"low":63072000,"high":0,"unsigned":false},"timeseries":{"timeField":"borrow_date","granularity":"hours","bucketMaxSpanSeconds":2592000}}
+
+library> book_in_stock 选项: {"viewOn":"books","pipeline":[{"$match":{"stock":{"$gt":0}}}]}
+
+library> 
+任务二数据建模完成。
+
+library> 
